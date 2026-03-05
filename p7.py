@@ -49,7 +49,7 @@ class DateStuff:
                 time.sleep(1)
             print("Time's Up!")
         except:
-            print("Please Enter a valid number!")
+            print("Please enter a valid number!")
 
 
 # -------- Math --------
@@ -160,7 +160,7 @@ class Files:
             data = input("Enter the data to write : ")
             with open(name, "w") as f:
                 f.write(data)
-            print("Data Written Successfully!")
+            print("Data written successfully!")
         except:
             print("Error occured!")
 
